@@ -1,13 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import datetime
 
-SITENAME = 'Svyatoslav Kubakh'
+SITE_AUTHOR = 'Svyatoslav Kubakh'
+SITENAME = SITE_AUTHOR
 DOMAIN = 'http://localhost:8000'
 BIO_TEXT = 'Web developer'
 
-SITE_AUTHOR = 'Svyatoslav Kubakh'
-INDEX_DESCRIPTION = 'A fullstack software developer with core expertise in Python and related technologies.'
+PELICAN_URL = 'https://getpelican.com'
+
+INDEX_DESCRIPTION = 'A backend software developer.'
+
+FOOTER_TEXT = '<h6 class="text-center copyright">© %d, %s. Powered by <a href="%s">Pelican</a>.</h6>' % (datetime.now().year, SITE_AUTHOR, PELICAN_URL)
 
 SIDEBAR_LINKS = [
     '<a href="/about/">About</a>',
