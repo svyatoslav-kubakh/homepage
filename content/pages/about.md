@@ -1,14 +1,16 @@
 Title: About
-Date: 2015-07-18 08:00
-Modified: 2015-07-18 08:00
+Date: 2018-03-13 20:00
+Modified: 2018-03-13 01:27
+Slug: about
 
 ### Who I am
 
-Hi, I'm Amit Chaudhary and I live in Kathmandu - Nepal.
+Hi, I'm Svyatoslav Kubakh and I live in [Mykolayiv](https://en.wikipedia.org/wiki/Mykolaiv) - [Ukraine](https://en.wikipedia.org/wiki/Ukraine).
 
 ### What I do
 
-I'm currently pursuing my undergraduate in Computer Engineering.
+I'm currently works as a backend developer ([<i class="fa fa-download" aria-hidden="true"></i> Download CV](/cv/ks-cv.pdf)).
+
 
 ### About this blog
 

@@ -7,12 +7,12 @@ SITE_AUTHOR = 'Svyatoslav Kubakh'
 SITENAME = SITE_AUTHOR
 DOMAIN = 'http://localhost:8000'
 BIO_TEXT = 'Web developer'
+INDEX_DESCRIPTION = 'A backend software developer.'
 
 PELICAN_URL = 'https://getpelican.com'
 
-INDEX_DESCRIPTION = 'A backend software developer.'
-
-FOOTER_TEXT = '<h6 class="text-center copyright">© %d, %s. Powered by <a href="%s">Pelican</a>.</h6>' % (datetime.now().year, SITE_AUTHOR, PELICAN_URL)
+FOOTER_TEXT = '<h6 class="text-center copyright">© %d, %s. Powered by <a href="%s">Pelican</a>.</h6>'\
+              % (datetime.now().year, SITE_AUTHOR, PELICAN_URL)
 
 SIDEBAR_LINKS = [
     '<a href="/about/">About</a>',
@@ -35,6 +35,8 @@ PAGE_SAVE_AS = PAGE_URL + 'index.html'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
 ARCHIVES_SAVE_AS = 'archive/index.html'
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
 # Disable Atom feed generation
 FEED_ATOM = 'atom.xml'
@@ -50,8 +52,12 @@ GOOGLE_FONTS = [
 ]
 
 SOCIAL_ICONS = [
-    ('http://github.com/amitness', 'Browse my projects', 'fa-github'),
-    ('https://np.linkedin.com/in/amitness', 'View Linkedin Profile', 'fa-linkedin'),
+    ('https://github.com/svyatoslav-kubakh', 'My GitHub projects', 'fa-github'),
+    ('https://gitlab.com/ksar', 'My GitLab projects', 'fa-gitlab'),
+    ('https://linkedin.com/in/svyatoslav-kubakh', 'My Linkedin Profile', 'fa-linkedin'),
+    ('https://facebook.com/svyatoslav.kubakh', 'My facebook page', 'fa-facebook'),
+    ('https://twitter.com/realksar/', 'Twitter', 'fa-twitter'),
+    # ('https://t.me/realksar', 'My Telegram', 'fa-telegram'),
     ('/atom.xml', 'Atom Feed', 'fa-rss'),
 ]
 
@@ -66,7 +72,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['extra', 'images']
+STATIC_PATHS = ['extra', 'images', 'cv']
 EXTRA_PATH_METADATA = {
     'extra/%s' % file: {'path': file} for file in ['favicon.ico', 'robots.txt']
 }
@@ -84,5 +90,8 @@ SITEMAP = {
         'articles': 'monthly',
         'indexes': 'daily',
         'pages': 'monthly',
+    },
+    'exclude': {
+        '404.html'
     }
 }
