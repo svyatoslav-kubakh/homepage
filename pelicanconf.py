@@ -5,9 +5,11 @@ from datetime import datetime
 
 SITE_AUTHOR = 'Svyatoslav Kubakh'
 SITENAME = SITE_AUTHOR
-DOMAIN = 'http://localhost:8000'
 BIO_TEXT = 'Web developer'
 INDEX_DESCRIPTION = 'A backend software developer.'
+
+DOMAIN = 'kubakh.name'
+SITEURL ='http://%s' % DOMAIN
 
 PELICAN_URL = 'https://getpelican.com'
 
