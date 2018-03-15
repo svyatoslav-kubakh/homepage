@@ -1,2 +1,3 @@
 pelican
+cssmin
 webassets
