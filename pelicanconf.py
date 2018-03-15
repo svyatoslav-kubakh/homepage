@@ -8,6 +8,9 @@ SITENAME = SITE_AUTHOR
 BIO_TEXT = 'Web developer'
 INDEX_DESCRIPTION = 'A backend software developer.'
 
+TWITTER_USERNAME = 'realksar'
+GOOGLE_PLUS_URL = 'https://plus.google.com/u/0/+SvyatoslavKubakh'
+
 DOMAIN = 'kubakh.name'
 SITEURL ='http://%s' % DOMAIN
 
@@ -55,7 +58,7 @@ GOOGLE_FONTS = [
 
 SOCIAL_ICONS = [
     ('https://github.com/svyatoslav-kubakh', 'My GitHub projects', 'fa-github'),
-    ('https://gitlab.com/ksar', 'My GitLab projects', 'fa-gitlab'),
+    # ('https://gitlab.com/ksar', 'My GitLab projects', 'fa-gitlab'),
     ('https://linkedin.com/in/svyatoslav-kubakh', 'My Linkedin Profile', 'fa-linkedin'),
     ('https://facebook.com/svyatoslav.kubakh', 'My facebook page', 'fa-facebook'),
     ('https://twitter.com/realksar/', 'Twitter', 'fa-twitter'),
@@ -73,6 +76,8 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# GOOGLE_ANALYTICS
 
 STATIC_PATHS = ['extra', 'images', 'cv']
 EXTRA_PATH_METADATA = {
@@ -97,3 +102,5 @@ SITEMAP = {
         '404.html'
     }
 }
+
+GOOGLE_ANALYTICS = 'UA-59913034-1'
