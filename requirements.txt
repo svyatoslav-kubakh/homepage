@@ -1,1 +1,1 @@
-qpelican
+pelican
