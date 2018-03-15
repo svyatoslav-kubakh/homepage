@@ -1,2 +1,3 @@
 User-agent: *
+Disallow: /old-hugo-version/*
 Sitemap: https://amitness.com/sitemap.xml
