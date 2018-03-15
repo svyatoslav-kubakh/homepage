@@ -7,6 +7,6 @@ deploy:
   tags:
     - ksar
   script:
-q    - git submodule update --init
+    - git submodule update --init
     - pelican content
     - rsync output/ ${PROJECT_PATH} --recursive --ignore-times --checksum --delete --exclude=.git* --exclude=old-hugo-version
