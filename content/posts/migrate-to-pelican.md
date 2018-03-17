@@ -8,6 +8,6 @@ Previous blog version has moved to<br/>
 [https://kubakh.name/old-hugo-version/](https://kubakh.name/old-hugo-version/)
 
 Source codes of hugo-version are available here:<br/>
-[https://github.com/svyatoslav-kubakh/homepage-old](https://github.com/svyatoslav-kubakh/homepage-old)
+[https://github.com/svyatoslav-kubakh/homepage-old](https://github.com/svyatoslav-kubakh/homepage-hugo)
 
 The new version will be published to [github](https://github.com/svyatoslav-kubakh) soon

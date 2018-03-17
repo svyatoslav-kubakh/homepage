@@ -1,7 +1,7 @@
-Title: Contact
+Title: Contacts
 Date: 2018-03-13 19:47
 Modified: 2018-03-13 00:17
-Slug: contact
+Slug: contacts
 
 If you're interested in my work or you just have a question or comment, please feel free to contact me:
 

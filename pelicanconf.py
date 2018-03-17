@@ -21,7 +21,7 @@ FOOTER_TEXT = '<h6 class="text-center copyright">© %d, %s. Powered by <a href="
 
 SIDEBAR_LINKS = [
     '<a href="/about/">About</a>',
-    '<a href="/contact/">Contact</a>',
+    '<a href="/contacts/">Contacts</a>',
 ]
 
 PATH = 'content'
