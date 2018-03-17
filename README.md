@@ -12,6 +12,7 @@ Based on [Pneumatic](https://github.com/iKevinY/pneumatic) theme
 - Install [Sass](http://sass-lang.com) (`sudo apt install ruby-sass` for ubuntu server)
 - Install [Python installer](https://pypi.python.org/pypi/pip) (`sudo apt show python-pip & sudo pip install --upgrade pip` for ubuntu server)
 - Install python dependencies:`pip install -r requirements.txt`
+- Prepare images:`env bash ./prepare_icons.sh`
 
 
 ## License

@@ -49,7 +49,7 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-ICONS_PATH = 'images'
+ICONS_PATH = 'images/icons'
 
 GOOGLE_FONTS = [
     'Nunito Sans:300,700',
@@ -58,15 +58,14 @@ GOOGLE_FONTS = [
 
 SOCIAL_ICONS = [
     ('https://github.com/svyatoslav-kubakh', 'My GitHub projects', 'fa-github'),
-    # ('https://gitlab.com/ksar', 'My GitLab projects', 'fa-gitlab'),
     ('https://linkedin.com/in/svyatoslav-kubakh', 'My Linkedin Profile', 'fa-linkedin'),
     ('https://facebook.com/svyatoslav.kubakh', 'My facebook page', 'fa-facebook'),
-    ('https://twitter.com/realksar/', 'Twitter', 'fa-twitter'),
-    # ('https://t.me/realksar', 'My Telegram', 'fa-telegram'),
+    ('https://twitter.com/%s/' % TWITTER_USERNAME, 'Twitter', 'fa-twitter'),
     ('/atom.xml', 'Atom Feed', 'fa-rss'),
 ]
 
-THEME = "themes/pneumatic"
+THEME = 'themes/pneumatic'
+THEME_COLOR = '#000000'
 
 PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['assets', 'neighbors', 'sitemap']
