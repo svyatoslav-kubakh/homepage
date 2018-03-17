@@ -1,5 +1,6 @@
 Title: Postfix admin interface
 Date: 2018-02-20 23-20
+Slug: postfix-admin
 Summary: Today postfix-admin v1.0.0 released
 
 Basic admin interface for [postfix](http://www.postfix.org/) service with settings [hosted in mysql](http://www.postfix.org/MYSQL_README.html)

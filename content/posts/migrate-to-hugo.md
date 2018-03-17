@@ -1,5 +1,6 @@
 Title: Site migrated  to hugo engine
 Date: 2018-03-09 13-04
+Slug: migrate-to-hugo
 Summary: Finally I decided to migrate from WP to the Hugo engine.
 
 Finally I decided to migrate from [Wordpress](https://wordpress.org/) to the [Hugo engine](https://gohugo.io/).
