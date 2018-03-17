@@ -9,6 +9,6 @@ deploy:
   tags:
     - ksar
   script:
-#    - env bash ./prepare_icons.sh
+    - env bash ./prepare_icons.sh
     - pelican content
     - rsync output/ ${PROJECT_PATH} --progress --recursive --ignore-times --checksum --delete --exclude-from=excludex.txt

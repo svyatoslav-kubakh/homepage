@@ -1,4 +1,4 @@
 .git*
 old-hugo-version
 favicon.ico
-output/images/icons
+!images/icons
