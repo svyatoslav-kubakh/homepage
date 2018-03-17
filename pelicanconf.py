@@ -43,6 +43,8 @@ ARCHIVES_SAVE_AS = 'archive/index.html'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
+CATEGORY_SAVE_AS = ''
+
 # Disable Atom feed generation
 FEED_ATOM = 'atom.xml'
 FEED_ALL_ATOM = None
