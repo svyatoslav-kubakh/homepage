@@ -10,5 +10,6 @@ deploy:
     - ksar
   script:
 #    - env bash ./prepare_icons.sh
+    - echo ${PROJECT_PATH}
     - pelican content
     - rsync output/ ${PROJECT_PATH} --progress --recursive --ignore-times --checksum --delete --exclude-from=excludex.txt
