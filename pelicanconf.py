@@ -45,7 +45,6 @@ MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
 CATEGORY_SAVE_AS = ''
 
-# Disable Atom feed generation
 FEED_ATOM = 'atom.xml'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -75,18 +74,12 @@ PLUGINS = ['assets', 'neighbors', 'sitemap']
 
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
-# GOOGLE_ANALYTICS
-
 STATIC_PATHS = ['extra', 'images', 'cv']
 EXTRA_PATH_METADATA = {
     'extra/%s' % file: {'path': file} for file in ['favicon.ico', 'robots.txt']
 }
 
 
-# Sitemap Settings
 SITEMAP = {
     'format': 'xml',
     'priorities': {
