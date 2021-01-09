@@ -9,7 +9,6 @@ BIO_TEXT = 'Web developer'
 INDEX_DESCRIPTION = 'A backend software developer.'
 
 TWITTER_USERNAME = 'realksar'
-GOOGLE_PLUS_URL = 'https://plus.google.com/u/0/+SvyatoslavKubakh'
 
 DOMAIN = 'kubakh.name'
 SITEURL ='http://%s' % DOMAIN
