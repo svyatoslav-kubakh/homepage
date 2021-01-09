@@ -31,6 +31,8 @@ TIMEZONE = 'Europe/Kiev'
 
 DEFAULT_LANG = 'en'
 
+# LOCALE = ('en_US', 'en-US')
+
 DIRECT_TEMPLATES = ['index', 'archives']
 
 PAGE_URL = '{slug}/'
@@ -67,8 +69,7 @@ SOCIAL_ICONS = [
 THEME = 'themes/pneumatic'
 THEME_COLOR = '#000000'
 
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['assets', 'neighbors', 'sitemap']
+PLUGINS = ['pelican_webassets', 'neighbors', 'sitemap']
 
 
 DEFAULT_PAGINATION = 10
