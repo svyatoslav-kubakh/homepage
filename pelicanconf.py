@@ -9,7 +9,6 @@ BIO_TEXT = 'Web developer'
 INDEX_DESCRIPTION = 'A backend software developer.'
 
 TWITTER_USERNAME = 'realksar'
-GOOGLE_PLUS_URL = 'https://plus.google.com/u/0/+SvyatoslavKubakh'
 
 DOMAIN = 'kubakh.name'
 SITEURL ='http://%s' % DOMAIN
@@ -32,6 +31,8 @@ TIMEZONE = 'Europe/Kiev'
 
 DEFAULT_LANG = 'en'
 
+# LOCALE = ('en_US', 'en-US')
+
 DIRECT_TEMPLATES = ['index', 'archives']
 
 PAGE_URL = '{slug}/'
@@ -45,7 +46,6 @@ MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
 
 CATEGORY_SAVE_AS = ''
 
-# Disable Atom feed generation
 FEED_ATOM = 'atom.xml'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -69,16 +69,10 @@ SOCIAL_ICONS = [
 THEME = 'themes/pneumatic'
 THEME_COLOR = '#000000'
 
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['assets', 'neighbors', 'sitemap']
+PLUGINS = ['pelican_webassets', 'neighbors', 'sitemap']
 
 
 DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
-# GOOGLE_ANALYTICS
 
 STATIC_PATHS = ['extra', 'images', 'cv']
 EXTRA_PATH_METADATA = {
@@ -86,7 +80,6 @@ EXTRA_PATH_METADATA = {
 }
 
 
-# Sitemap Settings
 SITEMAP = {
     'format': 'xml',
     'priorities': {

@@ -1,4 +1,5 @@
-pelican
+pelican[markdown]
+pelican-neighbors
+pelican-webassets
+pelican-sitemap
 cssmin
-webassets
-Markdown
