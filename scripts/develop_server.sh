@@ -11,9 +11,6 @@ INPUTDIR=$BASEDIR/content
 OUTPUTDIR=$BASEDIR/output
 CONFFILE=$BASEDIR/pelicanconf.py
 
-echo $INPUTDIR
-exit
-
 ###
 # Don't change stuff below here unless you are sure
 ###
