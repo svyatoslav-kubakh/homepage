@@ -4,7 +4,7 @@ on: push
 
 jobs:
   build:
-    name: Build artefact
+    name: CI
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,5 +20,5 @@ jobs:
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2
         with:
-          name: site-files
+          name: kubakh-name-files
           path: output

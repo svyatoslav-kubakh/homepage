@@ -1,5 +1,6 @@
 # Svyatoslav Kubakh home page
 
+![Site Build](https://github.com/svyatoslav-kubakh/homepage/workflows/CI/badge.svg)
 
 ## About
 
