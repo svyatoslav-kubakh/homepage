@@ -69,7 +69,7 @@ SOCIAL_ICONS = [
 THEME = 'themes/pneumatic'
 THEME_COLOR = '#000000'
 
-PLUGINS = ['pelican_webassets', 'neighbors', 'sitemap']
+PLUGINS = ['webassets', 'neighbors', 'sitemap']
 
 
 DEFAULT_PAGINATION = 10
