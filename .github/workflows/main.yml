@@ -4,9 +4,12 @@ on:
   - push
   - workflow_dispatch
 
+env:
+  ARTIFACT_NAME: kubakh-name-files
+
 jobs:
   build:
-    name: CI
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,5 +25,15 @@ jobs:
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2
         with:
-          name: kubakh-name-files
+          name: ${{ env.ARTIFACT_NAME }}
           path: output
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+      - name: List files
+        run: ls -la
