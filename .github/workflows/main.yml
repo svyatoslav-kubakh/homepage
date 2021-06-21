@@ -29,6 +29,8 @@ jobs:
           path: output
   deploy:
     name: Deploy
+    needs:
+      - build
     runs-on: ubuntu-latest
     steps:
       - name: Download Artifact
