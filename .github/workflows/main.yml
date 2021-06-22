@@ -19,7 +19,7 @@ jobs:
       - name: Setup Imagick
         run: sudo apt-get -y install imagemagick
       - name: Prepare icons
-        run: ./scripts/prepare_icons.sh
+        run: sh ./scripts/prepare_icons.sh
       - name: Setup Python
         uses: actions/setup-python@v2
       - name: Install vendor libraries
