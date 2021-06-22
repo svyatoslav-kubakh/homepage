@@ -16,6 +16,10 @@ jobs:
         uses: actions/checkout@v2
       - name: Checkout theme
         run: git submodule update --init
+      - name: Setup Imagick
+        run: sudo apt-get -y install imagemagick
+      - name: Prepare icons
+        run: ./scripts/prepare_icons.sh
       - name: Setup Python
         uses: actions/setup-python@v2
       - name: Install vendor libraries
