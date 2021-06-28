@@ -30,7 +30,10 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.ARTIFACT_NAME }}
-          path: output
+          path: |
+            output
+            !output/**/.gitignore
+            !output/**/.webassets-cache
   deploy:
     name: Deploy
     needs:
