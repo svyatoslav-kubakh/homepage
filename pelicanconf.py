@@ -29,7 +29,7 @@ TIMEZONE = 'Europe/Kiev'
 
 DEFAULT_LANG = 'en'
 
-# LOCALE = ('en_US', 'en-US')
+LOCALE = ('en_US', 'en-US')
 
 DIRECT_TEMPLATES = ['index', 'archives']
 
@@ -71,7 +71,7 @@ PLUGINS = ['webassets', 'neighbors', 'sitemap']
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = ['extra', 'images', 'cv']
+STATIC_PATHS = ['images', 'cv']
 EXTRA_PATH_METADATA = {
     'extra/%s' % file: {'path': file} for file in ['favicon.ico', 'robots.txt']
 }

@@ -11,8 +11,13 @@ Based on [Pneumatic][pelican-pneumatic] theme
 ## Setup
 
 - Install  [Python][python] & [Python installer][python-pip]
-- Install python dependencies:`pip install -r requirements.txt`
-- Prepare images:`env bash ./prepare_icons.sh`
+- Install python dependencies: `pip install -r requirements.txt`
+- Prepare images: `env bash ./prepare_icons.sh`
+
+## Deployment routines
+
+- Just generate site: `python -m pelican`
+- Run internal server with live reload: `python -m pelican -lr`
 
 
 ## License
