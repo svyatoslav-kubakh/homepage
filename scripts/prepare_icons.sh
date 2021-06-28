@@ -1,10 +1,10 @@
 #!/bin/bash
 
-CONTENT_DIRECTORY="../content"
+CONTENT_DIRECTORY="./content"
 IMAGES_DIRECTORY="${CONTENT_DIRECTORY}/images"
 ICONS_DIRECTORY="${IMAGES_DIRECTORY}/icons"
 EXTRA_DIRECTORY="${CONTENT_DIRECTORY}/extra"
-SOURCE_IMAGE="favicon-300x300.png"
+SOURCE_IMAGE="${IMAGES_DIRECTORY}/favicon.png"
 
 function convert_icon {
     size=$1
@@ -14,12 +14,12 @@ function convert_icon {
         target_directory=${ICONS_DIRECTORY}
     fi
     target_file=${target_directory}/$2
-    convert -verbose -resize ${size} ${ICONS_DIRECTORY}/${SOURCE_IMAGE} ${target_file}
+    convert -verbose -resize ${size} ${SOURCE_IMAGE} ${target_file}
 }
 
 # favicon icons
 convert_icon 48 "favicon.ico" ${EXTRA_DIRECTORY}
-for size in 16 32 96 160 196
+for size in 16 32 96 160 196 300
 do
     convert_icon "${size}x${size}" "favicon-${size}x${size}.png"
 done
