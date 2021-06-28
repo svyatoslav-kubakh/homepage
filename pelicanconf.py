@@ -8,8 +8,6 @@ SITENAME = SITE_AUTHOR
 BIO_TEXT = 'Web developer'
 INDEX_DESCRIPTION = 'A backend software developer.'
 
-TWITTER_USERNAME = 'realksar'
-
 DOMAIN = 'kubakh.name'
 SITEURL ='http://%s' % DOMAIN
 
@@ -62,7 +60,6 @@ SOCIAL_ICONS = [
     ('https://github.com/svyatoslav-kubakh', 'My GitHub projects', 'fa-github'),
     ('https://linkedin.com/in/svyatoslav-kubakh', 'My Linkedin Profile', 'fa-linkedin'),
     ('https://facebook.com/svyatoslav.kubakh', 'My facebook page', 'fa-facebook'),
-    ('https://twitter.com/%s/' % TWITTER_USERNAME, 'Twitter', 'fa-twitter'),
     ('/atom.xml', 'Atom Feed', 'fa-rss'),
 ]
 
