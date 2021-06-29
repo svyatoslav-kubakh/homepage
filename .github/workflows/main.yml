@@ -51,11 +51,9 @@ jobs:
           path: public
       - name: Prepare firebase config
         run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON_CONFIG }}' > ./firebase.json
-      - name: List files
-        run: ls -la ./public && cat ./firebase.json
-#      - uses: FirebaseExtended/action-hosting-deploy@v0
-#        with:
-#          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-#          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KSAR_HOMEPAGE }}'
-#          projectId: ksar-homepage
-#          channelId: live
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KSAR_HOMEPAGE }}'
+          projectId: ksar-homepage
+          channelId: live
