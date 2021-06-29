@@ -51,6 +51,7 @@ jobs:
           path: public
       - name: Prepare firebase config
         run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON_CONFIG }}' > ./firebase.json
+      - name: Deploy to Firebase
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
