@@ -1,8 +1,12 @@
 name: CI
 
 on:
-  - push
-  - workflow_dispatch
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+    branches:
+      - master
 
 env:
   ARTIFACT_NAME: kubakh-name-files
@@ -44,5 +48,14 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: ${{ env.ARTIFACT_NAME }}
+          path: public
+      - name: Prepare firebase config
+        run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON_CONFIG }}' > ./firebase.json
       - name: List files
         run: ls -la
+#      - uses: FirebaseExtended/action-hosting-deploy@v0
+#        with:
+#          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+#          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_KSAR_HOMEPAGE }}'
+#          projectId: ksar-homepage
+#          channelId: live
