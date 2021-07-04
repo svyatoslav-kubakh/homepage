@@ -71,7 +71,7 @@ PLUGINS = ['webassets', 'neighbors', 'sitemap']
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = ['images', 'cv']
+STATIC_PATHS = ['images', 'cv', 'extra']
 EXTRA_PATH_METADATA = {
     'extra/%s' % file: {'path': file} for file in ['favicon.ico', 'robots.txt']
 }
