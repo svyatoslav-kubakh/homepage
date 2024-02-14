@@ -8,6 +8,8 @@ SITENAME = SITE_AUTHOR
 BIO_TEXT = 'Web developer'
 INDEX_DESCRIPTION = 'A backend software developer.'
 
+#### some changes
+
 DOMAIN = 'kubakh.name'
 SITEURL ='http://%s' % DOMAIN
 
@@ -94,4 +96,4 @@ SITEMAP = {
     }
 }
 
-GOOGLE_ANALYTICS = 'UA-59913034-1'
+GOOGLE_ANALYTICS = 'UA-59913034-2'
