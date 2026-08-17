@@ -3,5 +3,6 @@ pelican-neighbors
 pelican-webassets
 pelican-sitemap
 cssmin
-rendercv
+rendercv[full]
+
 
