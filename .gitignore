@@ -10,8 +10,7 @@ pelican.pid
 srv.pid
 
 # CV build artifacts
-content/cv/ks-cv.pdf
-content/cv/ks-cv2.pdf
+content/cv/*.pdf
 content/cv/rendercv_output*
 content/cv/resume.json
 content/cv/node_modules/

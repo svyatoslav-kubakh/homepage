@@ -33,7 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
       - name: Build CV PDF
-        run: python -m rendercv render content/cv/rendercv.yaml --pdf-path ks-cv.pdf --dont-generate-png --dont-generate-markdown --dont-generate-html
+        run: python -m rendercv render content/cv/rendercv.yaml --pdf-path svyatoslav-kubakh-cv.pdf --dont-generate-png --dont-generate-markdown --dont-generate-html
       - name: Compile site files
         run: python -m pelican
       - name: 'Upload Artifact'

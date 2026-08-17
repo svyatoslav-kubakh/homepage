@@ -23,7 +23,7 @@ With over 15 years of commercial software engineering experience and 4+ years sp
 
 ### Curriculum Vitae
 
-* 📄 [<i class="fa fa-download" aria-hidden="true"></i> **Download Full CV (PDF)**](/cv/ks-cv.pdf)
+* 📄 [<i class="fa fa-download" aria-hidden="true"></i> **Download Full CV (PDF)**](/cv/svyatoslav-kubakh-cv.pdf)
 
 ---
 
