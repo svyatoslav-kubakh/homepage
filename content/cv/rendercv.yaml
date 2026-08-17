@@ -1,0 +1,111 @@
+cv:
+  name: Svyatoslav Kubakh
+  headline: Senior Backend Engineer / Tech Lead
+  location: Ukraine
+  email: svyatoslav.kubakh@gmail.com
+  phone: "+38(050)777-44-50"
+  website: https://kubakh.name
+  social_networks:
+    - network: GitHub
+      username: svyatoslav-kubakh
+    - network: LinkedIn
+      username: svyatoslav-kubakh
+
+  sections:
+    summary:
+      - "Senior Backend Engineer with 15+ years of software development experience and 4+ years specializing in high-throughput iGaming platforms and distributed systems. Strong expertise in Node.js/TypeScript and PHP, designing low-latency microservices, fault-tolerant transactional balance systems, and real-time game engines. Actively leverage AI coding agents (Claude Code, Antigravity, Cursor, OpenCode) to accelerate development velocity and code quality. Proven track record in scaling highload architectures (thousands of CCU, millions of daily operations) and driving engineering excellence."
+
+    experience:
+      - company: ELA Games (BrainRocket)
+        position: Senior Backend Developer
+        start_date: 2021-11
+        end_date: present
+        highlights:
+          - "Technologies: Node.js, TypeScript (NestJS, Express), MySQL, Redis, WebSockets, Docker, Kubernetes, GitLab CI"
+          - Designed and implemented core game server engines featuring diverse game mechanics (RNG, RTP calculations, crash algorithms, reel/symbol generation, game state machines)
+          - Integrated game server services with casino platform APIs and aggregator protocols (supporting Seamless and Transfer Wallet workflows)
+          - Handled in-game bet and win processing, ensuring idempotency and preventing race conditions during high-frequency gameplay
+          - Built low-latency real-time game communication services using WebSockets, sustaining peak loads and thousands of concurrent users (CCU)
+          - Optimized database layer (MySQL) with query tuning and indexing, combined with Redis for session states and high-performance caching
+          - Conducted code reviews, enforced Clean Architecture and SOLID principles, mentored engineers, and contributed to CI/CD automation
+
+      - company: Toplyvo UA
+        position: Backend Developer / Team Lead
+        start_date: 2020-01
+        end_date: 2021-11
+        highlights:
+          - "Technologies: PHP 7.4 (Symfony), Node.js (NestJS), PostgreSQL, MySQL, Redis, Microservices, Docker, GitHub Actions, Jenkins"
+          - Architected mission-critical integration services with major nationwide fuel station chains (OKKO, WOG, BRSM, etc.) for real-time mobile fueling and transaction processing
+          - Led backend engineering team (5+ developers), defining architectural standards, code reviews, and sprint planning
+          - Eliminated highload bottlenecks and resolved production incidents, drastically improving system reliability and fault tolerance
+          - Optimized PostgreSQL database performance and implemented asynchronous queue processing for high-volume B2B/B2C operations
+          - Automated CI/CD pipelines with Docker and GitHub Actions, speeding up release cycles
+
+      - company: ExtraWest
+        position: Backend Developer / Technical Lead
+        start_date: 2018-01
+        end_date: 2020-01
+        highlights:
+          - "Technologies: PHP (Symfony, Laravel, Yii2), Node.js/TypeScript (NestJS, Express), PostgreSQL, MongoDB, Docker, AWS, GCP, GitLab CI"
+          - Developed scalable backend architectures and REST/gRPC API integrations for international client projects
+          - Designed distributed business workflows, database schemas, and multi-tenant systems
+          - Mentored junior and middle developers, conducted technical interviews, and configured CI/CD deployments
+
+      - company: TemplateMonster
+        position: Senior Backend Developer
+        start_date: 2008-01
+        end_date: 2018-01
+        highlights:
+          - "Technologies: PHP, MySQL, Redis, Memcached, REST APIs, Payment Gateways, Highload Architecture, Git"
+          - Engineered core marketplace services processing millions of global monthly visitors, digital product purchases, and secure digital asset delivery via CDN
+          - Integrated global multi-currency payment gateways (PayPal, Stripe, 2Checkout) and billing processors with automated anti-fraud validation
+          - Developed a high-volume affiliate tracking engine managing real-time referral attribution, multi-tier commissions, and payouts
+          - Scaled MySQL database performance (master-slave replication, query tuning) and implemented multi-level caching (Redis, Memcached)
+          - Mentored junior engineers and contributed to company-wide backend architecture and engineering standards
+
+      - company: ALAN-Technologies / PrivatBank / Shturval
+        position: Software Engineer / Team Lead
+        start_date: 2001-01
+        end_date: 2008-01
+        highlights:
+          - "Technologies: PHP, MySQL, Oracle, Sybase, Linux, Client-Server Architecture"
+          - Engineered enterprise software solutions, banking automation systems, distributed database applications, and internal corporate portals
+
+    technologies:
+      - label: Languages & Runtimes
+        details: TypeScript, JavaScript (Node.js), PHP (8.x / 7.x), Shell Scripting, SQL
+      - label: Frameworks & Libraries
+        details: NestJS, Fastify, Express.js, Symfony, Laravel, Yii2, Jest, PHPUnit
+      - label: Databases & Caching
+        details: PostgreSQL, MySQL / MariaDB, Redis (Cluster, Caching, Pub/Sub, Locks), MongoDB, ClickHouse, Elasticsearch
+      - label: Architecture & Protocols
+        details: Microservices, Distributed Systems, Highload & Low Latency, Event-Driven, gRPC, WebSockets, REST API, ACID Transactions
+      - label: DevOps & Cloud
+        details: Docker & Docker Compose, Kubernetes, Helm, GitLab CI, GitHub Actions, Jenkins, Linux (Ubuntu/Debian), Nginx, AWS, DigitalOcean
+      - label: Engineering Practices
+        details: Clean Architecture, SOLID, Design Patterns, TDD, Agile / Scrum (Jira), Code Review, System Design
+      - label: AI-Assisted Engineering
+        details: Claude Code, Antigravity, Cursor, OpenCode, Agentic Workflows, LLM Prompt Engineering
+
+    education:
+      - institution: The Ukrainian State Maritime Technical University
+        area: Information Operating Systems and Technologies (System Analyst Engineer)
+        location: Mykolayiv, Ukraine
+        end_date: 2005-02
+
+    languages:
+      - label: English
+        details: Intermediate (B1) — Technical and professional working proficiency
+      - label: Ukrainian
+        details: Native
+
+design:
+  theme: classic
+  page:
+    size: a4
+    show_footer: false
+    show_top_note: false
+  header:
+    connections:
+      space_between_connections: 2.5cm
+

@@ -71,7 +71,9 @@ PLUGINS = ['webassets', 'neighbors', 'sitemap']
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = ['images', 'cv', 'extra']
+STATIC_PATHS = ['images', 'cv/ks-cv.pdf', 'extra']
+STATIC_EXCLUDES = ['cv/rendercv.yaml']
+IGNORE_FILES = ['.#*', 'rendercv.yaml', '*.yaml']
 EXTRA_PATH_METADATA = {
     'extra/%s' % file: {'path': file} for file in ['favicon.ico', 'robots.txt']
 }
