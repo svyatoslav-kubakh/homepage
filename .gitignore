@@ -2,6 +2,8 @@
 .DS_Store
 */**/.DS_Store
 *.swp
+.venv/
+__pycache__/
 *.pyc
 /output/*
 pelican.pid

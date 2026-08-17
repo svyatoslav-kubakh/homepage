@@ -5,8 +5,8 @@ from datetime import datetime
 
 SITE_AUTHOR = 'Svyatoslav Kubakh'
 SITENAME = SITE_AUTHOR
-BIO_TEXT = 'Web developer'
-INDEX_DESCRIPTION = 'A backend software developer.'
+BIO_TEXT = 'Senior Backend Engineer / Tech Lead'
+INDEX_DESCRIPTION = 'Senior Backend Engineer & Tech Lead specializing in iGaming, Highload Distributed Systems, and AI-Assisted Engineering.'
 
 DOMAIN = 'kubakh.name'
 SITEURL ='http://%s' % DOMAIN
