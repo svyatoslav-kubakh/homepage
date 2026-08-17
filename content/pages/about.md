@@ -5,7 +5,7 @@ Slug: about
 
 ### Who I Am
 
-Hi! I'm **Svyatoslav Kubakh**, a **Senior Backend Engineer & Tech Lead** based in [Mykolayiv, Ukraine](https://en.wikipedia.org/wiki/Mykolaiv).
+Hi! I'm **Svyatoslav Kubakh**, a **Senior Backend Engineer & Tech Lead** ([<i class="fa fa-download" aria-hidden="true"></i> Download CV](/cv/svyatoslav-kubakh-cv.pdf)) based in [Mykolayiv, Ukraine](https://en.wikipedia.org/wiki/Mykolaiv).
 
 With over 15 years of commercial software engineering experience and 4+ years specializing in the **iGaming and Highload domain**, I focus on building scalable, fault-tolerant distributed systems, real-time game engines, and low-latency transactional services.
 
@@ -18,12 +18,6 @@ With over 15 years of commercial software engineering experience and 4+ years sp
 * **High-Throughput Bet & Transaction Processing:** Developing game transaction systems with idempotency and robust protection against race conditions and double-spending during high-frequency gameplay.
 * **Engineering Leadership:** Mentoring engineers, conducting code reviews, enforcing SOLID & Clean Architecture, and automating CI/CD pipelines with Docker and GitLab CI.
 * **AI-Assisted Engineering:** Actively integrating modern AI agentic workflows (**Claude Code**, **Antigravity**, **Cursor**, **OpenCode**) to maximize development velocity, architecture prototyping, and code quality.
-
----
-
-### Curriculum Vitae
-
-* 📄 [<i class="fa fa-download" aria-hidden="true"></i> **Download Full CV (PDF)**](/cv/svyatoslav-kubakh-cv.pdf)
 
 ---
 
