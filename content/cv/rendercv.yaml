@@ -18,7 +18,7 @@ cv:
     experience:
       - company: ELA Games (BrainRocket)
         position: Senior Backend Developer
-        start_date: 2021-11
+        start_date: 2021-12
         end_date: present
         highlights:
           - "Technologies: Node.js, TypeScript (NestJS, Express), MySQL, Redis, WebSockets, Docker, Kubernetes, GitLab CI"
@@ -31,8 +31,8 @@ cv:
 
       - company: Toplyvo UA
         position: Backend Developer / Team Lead
-        start_date: 2020-01
-        end_date: 2021-11
+        start_date: 2020-06
+        end_date: 2021-12
         highlights:
           - "Technologies: PHP 7.4 (Symfony), Node.js (NestJS), PostgreSQL, MySQL, Redis, Microservices, Docker, GitHub Actions, Jenkins"
           - Architected mission-critical integration services with major nationwide fuel station chains (OKKO, WOG, BRSM, etc.) for real-time mobile fueling and transaction processing
@@ -43,8 +43,8 @@ cv:
 
       - company: ExtraWest
         position: Backend Developer / Technical Lead
-        start_date: 2018-01
-        end_date: 2020-01
+        start_date: 2018-05
+        end_date: 2020-08
         highlights:
           - "Technologies: PHP (Symfony, Laravel, Yii2), Node.js/TypeScript (NestJS, Express), PostgreSQL, MongoDB, Docker, AWS, GCP, GitLab CI"
           - Developed scalable backend architectures and REST/gRPC API integrations for international client projects
@@ -53,8 +53,8 @@ cv:
 
       - company: TemplateMonster
         position: Senior Backend Developer
-        start_date: 2008-01
-        end_date: 2018-01
+        start_date: 2008-02
+        end_date: 2018-04
         highlights:
           - "Technologies: PHP, MySQL, Redis, Memcached, REST APIs, Payment Gateways, Highload Architecture, Git"
           - Engineered core marketplace services processing millions of global monthly visitors, digital product purchases, and secure digital asset delivery via CDN
