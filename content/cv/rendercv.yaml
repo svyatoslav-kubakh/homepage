@@ -88,10 +88,12 @@ cv:
         details: Claude Code, Antigravity, Cursor, OpenCode, Agentic Workflows, LLM Prompt Engineering
 
     education:
-      - institution: The Ukrainian State Maritime Technical University
-        area: Information Operating Systems and Technologies (System Analyst Engineer)
+      - company: Ukrainian State Maritime Technical University
+        position: System Analyst Engineer
         location: Mykolayiv, Ukraine
         end_date: 2005-02
+        highlights:
+          - "Specialization in Information Operating Systems and Technologies"
 
     languages:
       - label: English

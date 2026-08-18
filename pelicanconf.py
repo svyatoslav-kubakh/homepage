@@ -72,8 +72,8 @@ PLUGINS = ['webassets', 'neighbors', 'sitemap']
 DEFAULT_PAGINATION = 10
 
 STATIC_PATHS = ['images', 'cv/svyatoslav-kubakh-cv.pdf', 'extra']
-STATIC_EXCLUDES = ['cv/rendercv.yaml']
-IGNORE_FILES = ['.#*', 'rendercv.yaml', '*.yaml']
+STATIC_EXCLUDES = ['cv/rendercv.yaml', 'cv/rendercv_output']
+IGNORE_FILES = ['.#*', 'rendercv.yaml', '*.yaml', 'rendercv_output*']
 EXTRA_PATH_METADATA = {
     'extra/%s' % file: {'path': file} for file in ['favicon.ico', 'robots.txt']
 }
