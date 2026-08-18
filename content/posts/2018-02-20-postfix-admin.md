@@ -1,5 +1,5 @@
 Title: Postfix admin interface
-Date: 2018-02-20 23-20
+Date: 2018-02-20
 Slug: postfix-admin
 Summary: Today postfix-admin v1.0.0 released
 

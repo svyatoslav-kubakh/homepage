@@ -1,5 +1,6 @@
 Title: Static analysis report
 Date: 2019-04-19
+Slug: static-analysis-report
 Summary: Presentation to the report "Static analysis and code testing in PHP projects".
 
 Presentation to the report "Static analysis and code testing in PHP projects".

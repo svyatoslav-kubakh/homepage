@@ -1,5 +1,6 @@
 Title: Virtualization report
 Date: 2015-02-16
+Slug: virtualization-report
 Summary: Presentation to the report "Virtual environments in the development process".
 
 Presentation to the report "Virtual environments in the development process".

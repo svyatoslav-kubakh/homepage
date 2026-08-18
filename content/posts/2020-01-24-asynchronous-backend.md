@@ -1,5 +1,6 @@
 Title: Asynchronous backend report
 Date: 2020-01-24
+Slug: asynchronous-backend-report
 Summary: Presentation to the report "Asynchronous backend and other troubles".
 
 Presentation to the report "Asynchronous backend and other troubles".

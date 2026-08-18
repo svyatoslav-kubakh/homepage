@@ -1,5 +1,5 @@
 Title: Site migrated to pelican engine
-Date: 2018-03-16 13-04
+Date: 2018-03-16
 Slug: migrate-to-pelican
 Summary: I decided to migrate from hugo to pelican engine because of more precise customization.
 
