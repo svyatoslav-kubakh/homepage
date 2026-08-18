@@ -13,7 +13,7 @@ cv:
 
   sections:
     summary:
-      - "Senior Backend Engineer with 15+ years of software development experience and 4+ years specializing in high-throughput iGaming platforms and distributed systems. Strong expertise in Node.js/TypeScript and PHP, designing low-latency microservices, fault-tolerant transactional balance systems, and real-time game engines. Actively leverage AI coding agents (Claude Code, Antigravity, Cursor, OpenCode) to accelerate development velocity and code quality. Proven track record in scaling highload architectures (thousands of CCU, millions of daily operations) and driving engineering excellence."
+      - "Senior Backend Engineer with 15+ years of software development experience and 4+ years specializing in high-throughput iGaming platforms and distributed systems. Strong expertise in Node.js/TypeScript and PHP, designing low-latency microservices, fault-tolerant transactional balance systems, and real-time game engines. Actively leverage AI coding agents (Claude Code, Antigravity, Cursor, OpenCode) to accelerate development velocity and code quality. Proven track record in scaling high-throughput architectures and driving engineering excellence."
 
     experience:
       - company: ELA Games (BrainRocket)
@@ -25,7 +25,7 @@ cv:
           - Designed and implemented core game server engines featuring diverse game mechanics (RNG, RTP calculations, crash algorithms, reel/symbol generation, game state machines)
           - Integrated game server services with casino platform APIs and aggregator protocols (supporting Seamless and Transfer Wallet workflows)
           - Handled in-game bet and win processing, ensuring idempotency and preventing race conditions during high-frequency gameplay
-          - Built low-latency real-time game communication services using WebSockets, sustaining peak loads and thousands of concurrent users (CCU)
+          - Built low-latency real-time game communication services using WebSockets, ensuring seamless state synchronization and stability during traffic spikes
           - Optimized database layer (MySQL) with query tuning and indexing, combined with Redis for session states and high-performance caching
           - Conducted code reviews, enforced Clean Architecture and SOLID principles, mentored engineers, and contributed to CI/CD automation
 
