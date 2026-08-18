@@ -3,7 +3,7 @@ Date: 2026-04-10
 Slug: ai-assisted-workflows-in-action
 Summary: Practical experience integrating tools like Claude Code and Antigravity into real engineering routines.
 
-There is a lot of hype and skepticism around AI in software development. In practice, modern AI agents like Claude Code and Antigravity are powerful productivity multipliers when used deliberately.
+There is a lot of hype and skepticism around AI in software development. In practice, modern AI coding agents (like [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code), Antigravity, and [Cursor](https://www.cursor.com/)) are powerful productivity multipliers when used deliberately.
 
 Here is how I integrate them into my actual engineering workflow:
 

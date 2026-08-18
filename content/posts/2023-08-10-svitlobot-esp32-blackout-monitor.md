@@ -5,7 +5,7 @@ Summary: Creating a resilient ESP32 client with C++ and PlatformIO to track powe
 
 After the winter with frequent power outages, I wanted a simple and reliable device to monitor whether power and home internet are active.
 
-I decided to write custom firmware for an ESP32 board in C++ using PlatformIO.
+I decided to write custom firmware for an [ESP32](https://www.espressif.com/en/products/socs/esp32) board in C++ using [PlatformIO](https://platformio.org/).
 
 The hardware setup is very simple:
 

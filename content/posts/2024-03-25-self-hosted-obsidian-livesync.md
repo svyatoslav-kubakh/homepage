@@ -3,11 +3,11 @@ Date: 2024-03-25
 Slug: self-hosted-obsidian-livesync
 Summary: How I set up end-to-end encrypted Obsidian sync across desktop and mobile without third-party cloud services.
 
-Obsidian has been my primary tool for daily engineering notes, project specs, and personal knowledge base.
+[Obsidian](https://obsidian.md/) has been my primary tool for daily engineering notes, project specs, and personal knowledge base.
 
-Standard file sync solutions like Google Drive or Syncthing can cause file conflicts on mobile when editing rapidly.
+Standard file sync solutions like Google Drive or [Syncthing](https://syncthing.net/) can cause file conflicts on mobile when editing rapidly.
 
-To get instant, conflict-free sync with full data ownership, I configured the Self-hosted LiveSync plugin for Obsidian backed by Apache CouchDB running on my Synology NAS.
+To get instant, conflict-free sync with full data ownership, I configured the [Self-hosted LiveSync plugin](https://github.com/vrtmrz/obsidian-livesync) for Obsidian backed by [Apache CouchDB](https://couchdb.apache.org/) running on my [Synology NAS](https://www.synology.com/).
 
 Why this setup works well:
 
